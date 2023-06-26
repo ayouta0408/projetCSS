@@ -1,0 +1,89 @@
+.title{
+    color:blueviolet
+  }
+  #blue-bordered {
+    border: 5px dashed blue;
+}
+/* Selecting multiple HTML element types */
+h2, p{
+    border: 1px solid black;
+    color:blue
+}
+p {
+    text-align: center;
+    color: firebrick;
+  }
+  h2 {
+    color: beige;
+    font-family: roboto;
+    text-align: center;
+  }
+
+ 
+h4 + p {
+  font-weight: bold;
+  background-color:aquamarine
+  currentColor
+  padding .5em;
+}   
+h4 ~ p {
+  font-weight: bold;
+  background-color:rgb(248, 198, 241);
+  color: #fff;
+  padding: .5em;
+}
+      /* unvisited link */
+      a:link {
+        color: rgb(71, 255, 132);
+    }
+
+    /* visited link */
+    a:visited {
+        color: rgb(71, 255, 132);
+    }
+
+    /* mouse over element */
+    div:hover {
+        color: rgb(71, 255, 132);
+    } 
+
+    /* selected link */
+    a:active{
+        color: #c300ff
+    }
+    
+    div{
+      height: 150px;
+      width: 90%;
+  }
+  p {
+    border: 5px solid rgb(240, 110, 181);
+    margin: 10px;
+  }
+
+  .rounded {
+    border-radius: 10px;
+  }
+
+  .elliptical {
+    border-radius: 10px/ 5px;
+  }
+  
+  first-line {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+  }
+  h4{
+    font-size: 25px 
+}
+
+p {
+  display:-ms-inline-flexbox;
+}
+.navbar {
+    display: inline;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
